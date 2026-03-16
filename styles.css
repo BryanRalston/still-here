@@ -324,10 +324,28 @@ footer p {
   font-size: 0.8rem;
 }
 
+.quiet-link {
+  color: rgba(156, 148, 136, 0.4);
+  font-size: 0.75rem;
+  font-style: italic;
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+.quiet-link a {
+  color: rgba(201, 149, 107, 0.45);
+  text-decoration-thickness: 1px;
+}
+
+.quiet-link a:hover,
+.quiet-link a:focus {
+  color: var(--accent);
+}
+
 .credit {
   color: rgba(156, 148, 136, 0.5);
   font-size: 0.75rem;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 
 /* ============================================
